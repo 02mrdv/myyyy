@@ -1,0 +1,57 @@
+.menu{
+max-width: 1000px;
+height: 500px;
+background-color: red;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: auto;
+}
+
+h1{
+font-size: 70px;
+}
+
+.box{
+width: 200px;
+height: 200px;
+background-color: green;
+border: 2px solid yellow;
+}
+
+/* all, screen, print */
+
+@media screen and (max-width:1000px) {
+    .menu{
+        background-color: green;
+
+
+    }
+    h1{
+
+font-size: 60px;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    .menu{
+        background-color: yellow;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
